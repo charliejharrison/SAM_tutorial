@@ -14,11 +14,11 @@ This process – detecting the objects and their component parts in a scene - is
 
 ![Segmented image of a potato plant](assets/IMG_8001_segmented.png)
 
- and training computers to do it has historically been very challenging. Image processing algorithms for segmentation rely on clustering similar sets of pixels, or detecting edges uses changes in shade or colour. More modern deep-learning approaches use neural networks to identify complex, high-dimensional patterns. Usually these models are trained with examples of the kind of object they are required to detect. 
+Training computers to perform this task historically been very challenging. Image processing algorithms for segmentation rely on clustering similar sets of pixels, or detecting edges uses changes in shade or colour. More modern deep-learning approaches use neural networks to identify complex, high-dimensional patterns. Usually these models are trained with examples of the kind of object they are required to detect, which requries large amounts of annotated data. Segment Anything Model (SAM) has "zero-shot" segmentation capability - that is, it works without the object-specific training stage. 
 
 ## Segment Anything Model (SAM and SAM2)
 
-Segment Anything is a project from [Meta AI](https://ai.meta.com/). They describe it as a foundational model for image segmentation - that is, it's been pre-trained to perform the task of image segmentation in a generalised way. It has three steps:
+Segment Anything is a project from [Meta AI](https://ai.meta.com/). It is desrcibed as a foundational model for image segmentation - that is, it's been pre-trained to perform the task of image segmentation in a generalised way. It has three steps:
 
 1. The _image encoder_ takes an image and converts it to an embedding representing the structural relationships in the image
 2. The _prompt encoder_ takes a prompt from the user, in the form of one or more locations in the image, and encodes its position so that it can be compared to the image embedding
