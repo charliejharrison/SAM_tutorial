@@ -6,5 +6,17 @@ dist/
 wheels/
 *.egg-info
 
+# uv generated files
+uv.lock
+.python-version
+
 # Virtual environments
 .venv
+
+# Data directory - except the first five images, for demo purposes
+data/*
+!data/IMG_8001.JPG
+!data/IMG_8002.JPG
+!data/IMG_8003.JPG
+!data/IMG_8004.JPG
+!data/IMG_8005.JPG
