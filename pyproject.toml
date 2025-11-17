@@ -8,8 +8,10 @@ dependencies = [
     "ipykernel>=7.1.0",
     "matplotlib>=3.10.7",
     "numpy>=2.3.4",
+    "opencv-python>=4.11.0.86",
     "pandas>=2.3.3",
     "segment-anything",
+    "torch>=2.9.1",
     "zenodo-get>=2.0.0",
 ]
 
